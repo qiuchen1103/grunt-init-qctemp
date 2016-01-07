@@ -44,7 +44,7 @@ module.exports = function(grunt) {
       // 监听任务
       watch: {
         scripts: {
-          files: ['workPlace/*.less', 'workPlace/*.js'],
+          files: ['workPlace/*.less', 'workPlace/*.js', '*.html'],
           tasks: ['less', 'uglify', 'cssmin', 'copy']
         },
 
