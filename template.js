@@ -43,11 +43,13 @@
         script: 'grunt qunit',
         devDependencies: {
           "grunt": "^0.4.5",
-          "grunt-contrib-concat": "^0.5.1",
           "grunt-contrib-connect": "^0.11.2",
           "grunt-contrib-uglify": "^0.11.0",
-          "grunt-contrib-watch": "^0.6.1"
-        },
+          "grunt-contrib-watch": "^0.6.1",
+          "grunt-contrib-copy": "^0.8.2",
+          "grunt-contrib-cssmin": "^0.14.0",
+          "grunt-contrib-less": "^1.1.0"
+              },
       });
 
       // All done!
