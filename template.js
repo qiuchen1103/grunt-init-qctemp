@@ -39,7 +39,7 @@
       init.writePackageJSON('package.json', {
         name: 'name',
         version: '1.0.0',
-        main: 'main.html',
+        main: 'index.html',
         script: 'grunt qunit',
         devDependencies: {
           "grunt": "^0.4.5",

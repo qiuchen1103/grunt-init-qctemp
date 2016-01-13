@@ -26,7 +26,7 @@ module.exports = function(grunt) {
       cssmin: {
         compress: {
           files: {
-            "css/mian.min.css": ["workPlace/main.css"]
+            "css/main.min.css": ["workPlace/main.css"]
           }
         }
       },
