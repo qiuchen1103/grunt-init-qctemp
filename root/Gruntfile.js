@@ -94,6 +94,10 @@ module.exports = function(grunt) {
     'watchit', 
     ['less', 'uglify', 'cssmin', 'copy', 'connect','watch']
   );
+  grunt.registerTask(
+    'compile',
+    ['less', 'uglify', 'cssmin', 'copy']
+  );
 
   grunt.registerTask('default');
 
